@@ -8,9 +8,6 @@ Original file is located at
 """
 
 import os
-
-print(os.listdir("/content"))
-
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile /content/app.py
 # 

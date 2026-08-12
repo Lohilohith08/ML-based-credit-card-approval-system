@@ -97,5 +97,3 @@ print(os.listdir("/content"))
 #         st.success("✅ Credit Card Approved")
 #     else:
 #         st.error("❌ Credit Card Not Approved")
-
-!cat /content/app.py

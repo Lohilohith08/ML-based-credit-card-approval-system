@@ -96,9 +96,21 @@ income = st.number_input(
 
 # Create input DataFrame
 input_data = pd.DataFrame([[
-    A15, A14, A13, A12, A11,
-    A10, A9, A8, A7, A6,
-    A5, A4, A3, A2, A1
+    income,                  # A15
+    zip_code,                # A14
+    citizen_encoded,         # A13
+    driver_license_encoded,  # A12
+    credit_score,            # A11
+    employed_encoded,        # A10
+    prior_default_encoded,   # A9
+    years_employed,          # A8
+    ethnicity_encoded,       # A7
+    education_encoded,       # A6
+    bank_customer_encoded,   # A5
+    married_encoded,         # A4
+    debt,                    # A3
+    age,                     # A2
+    gender_encoded           # A1
 ]], columns=[
     "A15", "A14", "A13", "A12", "A11",
     "A10", "A9", "A8", "A7", "A6",

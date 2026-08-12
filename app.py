@@ -16,7 +16,7 @@ import os
 # import pandas as pd
 # 
 # # Load trained model
-# model = joblib.load("/content/credit_approval_model.pkl")
+# model = joblib.load("credit_approval_model.pkl")
 # 
 # # Page configuration
 # st.set_page_config(
